@@ -1,0 +1,6 @@
+[submodule "Sources/libsecp256k1/secp256k1"]
+	path = Sources/libsecp256k1/secp256k1
+	url = git@github.com:bitcoin-core/secp256k1.git
+[submodule "Sources/libkeccak/keccak-tiny"]
+	path = Sources/libkeccak/keccak-tiny
+	url = git@github.com:unistash-io/keccak-tiny.git
