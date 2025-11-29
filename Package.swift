@@ -5,10 +5,10 @@ import PackageDescription
 let package = Package(
     name: "swift-bip",
     platforms: [
-        .macOS(.v10_15),
-        .iOS(.v13),
-        .watchOS(.v6),
-        .tvOS(.v13),
+        .macOS("10.15"),
+        .iOS("13.2"),
+        .watchOS("6.1"),
+        .tvOS("13.2"),
     ],
     products: [
         .library(name: "BIP", targets: ["BIP"]),
